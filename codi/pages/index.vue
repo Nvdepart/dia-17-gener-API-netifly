@@ -34,10 +34,11 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-card v-for="(m,i) in els20Missatges" :key="{i}" >
-          {{ m.els20Missatges.missatge }}
-      </v-card>
-      
+      <v-col style="background-color:aquamarine" class="pa-md-5 mr-md-1 " cols="3" v-for="(m,i) in els20Missatges">
+       
+        <p>Missatge es <strong>{{m.missatge}}</strong></p>
+        <p><strong>el usuari es {{m.usuari}}</strong></p>
+      </v-col>
     </v-row>
   </v-container>
 </template>
