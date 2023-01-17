@@ -34,8 +34,7 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col style="background-color:aquamarine" class="pa-md-5 mr-md-1 " cols="3" v-for="(m,i) in els20Missatges">
-       
+      <v-col style="background-color:aquamarine; border-radius:50px " class="pa-md-5 mr-md-1 " cols="3" v-for="(m,i) in els20Missatges">
         <p>Missatge es <strong>{{m.missatge}}</strong></p>
         <p><strong>el usuari es {{m.usuari}}</strong></p>
       </v-col>
